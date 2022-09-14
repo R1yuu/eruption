@@ -84,7 +84,7 @@ cargo build --all --release --verbose --features=sourceview
 %{__mkdir_p} %{buildroot}/%{_datarootdir}/%{ShortName}/i18n
 %{__mkdir_p} %{buildroot}/%{_datarootdir}/applications/
 %{__mkdir_p} %{buildroot}/%{_datarootdir}/icons/hicolor/64x64/apps/
-#%{__mkdir_p} %{buildroot}/%{_datarootdir}/eruption-gui/schemas
+%{__mkdir_p} %{buildroot}/%{_datarootdir}/eruption-gui/schemas
 %{__mkdir_p} %{buildroot}/%{_datarootdir}/bash-completion/completions/
 %{__mkdir_p} %{buildroot}/%{_datarootdir}/fish/completions/
 %{__mkdir_p} %{buildroot}/%{_datarootdir}/zsh/site-functions/
