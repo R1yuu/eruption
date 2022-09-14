@@ -222,7 +222,7 @@ install -Dp -m 0755 %{_builddir}/%{name}-releases-v%{version}/target/release/eru
 install -Dp -m 0755 %{_builddir}/%{name}-releases-v%{version}/target/release/eruptionctl %{buildroot}/%{_bindir}/eruptionctl
 install -Dp -m 0755 %{_builddir}/%{name}-releases-v%{version}/target/release/eruption-cmd %{buildroot}/%{_bindir}/eruption-cmd
 install -Dp -m 0755 %{_builddir}/%{name}-releases-v%{version}/target/release/eruption-hwutil %{buildroot}/%{_bindir}/eruption-hwutil
-install -Dp -m 0755 %{_builddir}/%{name}-releases-v%{version}/target/release/eruption-keymap%{buildroot}/%{_bindir}/eruption-keymap
+install -Dp -m 0755 %{_builddir}/%{name}-releases-v%{version}/target/release/eruption-keymap %{buildroot}/%{_bindir}/eruption-keymap
 install -Dp -m 0755 %{_builddir}/%{name}-releases-v%{version}/target/release/eruption-netfx %{buildroot}/%{_bindir}/eruption-netfx
 install -Dp -m 0755 %{_builddir}/%{name}-releases-v%{version}/target/release/eruption-util %{buildroot}/%{_bindir}/eruption-util
 install -Dp -m 0755 %{_builddir}/%{name}-releases-v%{version}/target/release/eruption-debug-tool %{buildroot}/%{_bindir}/eruption-debug-tool
